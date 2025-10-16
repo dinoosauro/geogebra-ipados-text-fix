@@ -4,7 +4,7 @@ Fix issues while editing object names or while adding custom text on GeoGebra. I
 
 Download it from GreasyFork: https://greasyfork.org/en/scripts/552823-geogebra-ipados-text-fix
 
-## What this does:
+## What this does:
 
 Normally, all GeoGebra web apps on iPadOS has two issues:
 
