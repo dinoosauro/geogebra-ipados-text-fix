@@ -35,5 +35,12 @@
         }
         // Second fix: multi-line textboxes (for example, the ones used in the "Text" tool).
         for (const item of document.querySelectorAll(".textEditor")) item.setAttribute("contenteditable", "true"); // Setting the textbox div to be contenteditable is enough to make it work.
-    }).observe(document.body, {childList: true, subtree: true})
+    }).observe(document.body, {childList: true, subtree: true});
+
+    // Third fix: edit the stylesheet to avoid putting inline text to multiple lines
+    const customStyle = document.createElement("style");
+    customStyle.textContent = `.cursorOverlay > .gwt-InlineLabel {
+        text-wrap: nowrap
+    }`;
+    document.head.append(customStyle);
 })()
