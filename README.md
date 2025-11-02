@@ -9,6 +9,7 @@ Download it from GreasyFork: https://greasyfork.org/en/scripts/552823-geogebra-i
 Normally, all GeoGebra web apps on iPadOS has two issues:
 
 - While editing the object names, or saving the file, the textbox value appears to be duplicated;
+- While editing the object names, the textbox overflows if spaces are added;
 - It's not possible to write anything with an external keyboard using the "Text" object.
 
 This Userscript aims to fix that.

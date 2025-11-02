@@ -4,7 +4,7 @@
 // @match       *://*.geogebra.org/*
 // @author      dinoosauro
 // @license     mit
-// @version     1.0.0
+// @version     1.0.1
 // @namespace   https://github.com/dinoosauro/geogebra-ipados-text-fix
 // ==/UserScript==
 
